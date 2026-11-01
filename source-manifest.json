@@ -1,0 +1,13 @@
+{
+  "title": "Toast, Cat, Gravity: The Buttered Cat’s Guide To Reality",
+  "credits": [
+    "Matthew Chenoweth Wright",
+    "Millie Sievert",
+    "MillieComplex"
+  ],
+  "pageCount": 88,
+  "imageCount": 8,
+  "sourceFile": "toast cat gravity.pdf",
+  "sourceSHA256": "076a2fae20e757d5ed12ec702d23642504c37a27f7b41b7d01bd4966cd9206e5",
+  "extraction": "Text unchanged apart from whitespace, removal of zero-width spaces, and geometric paragraph reconstruction. Code blocks are displayed, never executed. Image lettering is not OCR indexed. Original PDF included for exact formatting and equations."
+}

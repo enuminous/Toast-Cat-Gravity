@@ -1,0 +1,19 @@
+name: Validate the reading room and experiments
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Check JavaScript and model behavior
+        run: |
+          node --check app.js
+          node --check models.js
+          node scripts/test.cjs
+          node scripts/build.cjs
